@@ -10,7 +10,7 @@ import (
 	"github.com/jedib0t/go-pretty/v6/table"
 )
 
-// Читает байты из cvs файла
+// Читает данные из cvs файла
 func readDataFile(path string) []byte {
 	bytesData, err := os.ReadFile(path)
 	if err != nil {
@@ -19,7 +19,7 @@ func readDataFile(path string) []byte {
 	return bytesData
 }
 
-// Обрабатывает байты из cvs файла
+// Обрабатывает данные из cvs файла
 func scanDataFile(path string) [][]string {
 
 	// Получаем контент из файла
@@ -45,6 +45,7 @@ func removeValueForIndex(slice [][]string, i int) [][]string {
 	return append(slice[:i], slice[i+1:]...)
 }
 
+// Выводит данные из cvs файла в табличном представлении
 func printDataFile(path string) {
 
 	// Получаем слайс данных из cvs файла
