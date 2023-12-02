@@ -7,11 +7,11 @@
 
    `go get github.com/jedib0t/go-pretty/v6/table`
  
- 3. После запуска введите путь до cvs файла, который хотите просмотреть в табличном представлении
+ 2. После запуска введите путь до cvs файла, который хотите просмотреть в табличном представлении
 
 ![image](https://github.com/Saveliy12/cvs_reader/assets/104260621/1324047a-c5f7-4e72-9f7c-8752d90e6491)
 
-4. Пример вывода:
+3. Пример вывода:
 
 ![image](https://github.com/Saveliy12/cvs_reader/assets/104260621/4cc52b4b-0cfc-4994-ad7b-c35615121b92)
 
