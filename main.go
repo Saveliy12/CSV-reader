@@ -24,9 +24,13 @@ func scanDataFile(path string) [][]string {
 
 	// Получаем контент из файла
 	bytesData := readDataFile(path)
+	bytesDataStr := string(bytesData)
+
+	// Удаляем лишние пробелы из данных
+	bytesDataWithoutSpaces := strings.ReplaceAll(bytesDataStr, " ", "")
 
 	// Создаем новый CVS Reader
-	r := csv.NewReader(strings.NewReader(string(bytesData)))
+	r := csv.NewReader(strings.NewReader(bytesDataWithoutSpaces))
 
 	// Читаем данные из файла
 	records, err := r.ReadAll()
