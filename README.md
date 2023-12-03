@@ -9,7 +9,8 @@
  
  2. После запуска введите путь до csv-файла, который хотите просмотреть в табличном представлении
 
-![image](https://github.com/Saveliy12/cvs_reader/assets/104260621/1324047a-c5f7-4e72-9f7c-8752d90e6491)
+![image](https://github.com/Saveliy12/CSV-reader/assets/104260621/077c81a9-5fde-49f3-95e7-c1dcd4746ea3)
+
 
 3. Пример вывода:
 
